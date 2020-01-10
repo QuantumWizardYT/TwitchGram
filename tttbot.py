@@ -57,7 +57,7 @@ def init():
     fn = dt.strftime(DAYTIME_STRING) + ".log"
     logging.basicConfig(filename="logs/" + fn, filemode = 'w',
      format=LOGGING_FORMAT, level=logging.INFO)
-
+TELEGRAM_TOKEN=os.environ.get( 1002759418:AAH6il_Ui-ueKBPvUrhhT2Q9v-vOzvtQ1wg) 
     #setting up bot inst
     bt = Bot(token = TELEGRAM_TOKEN)
     ClUs.user.set_bot(bt)
